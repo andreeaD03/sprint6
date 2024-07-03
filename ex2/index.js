@@ -1,11 +1,5 @@
-
-
-
-function tellFortune(nrCopii = 2, partener = Bianca, locatia = "Timisoara", cariera = "Inginer") {
-
-    const future = 'Andrei este un {cariera} locuieste in { locatia } "casatorit cu" ${ partener } "si au"  ${ nrCopii } copii'
-    console.log(future)
-
+function tellFortune(N, X, Y, Z) {
+    console.log( "Voi fi o  " +X+ " casatorita cu " +Z+ " voi locuii in " +Y+ " si voi avea " +N+ " copii");
 
 }
-
+tellFortune(2, "Programatoare", "Timisoara", "Mario")
