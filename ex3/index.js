@@ -20,7 +20,9 @@ function getDay(days){
             break;
           case  6:
             day = "duminica";
-    }
+  }
+
 }
 
-console.log(getDay(1));
+console.log(getDay(3));
+
